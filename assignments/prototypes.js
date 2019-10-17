@@ -45,6 +45,26 @@
   - When eating an edible, it should be pushed into a "stomach" property which is an array.
   - Give persons the ability to poop.
   - When pooping, the stomach should empty.
+*/
+
+function Greeting(name, age) {
+  this.name = name;
+  this.age = age;
+  this.speak = function() {
+    return "Hi my name is " + this.name + " and I`m " + this.age + ".";
+  };
+}
+
+var stomach = [];
+stomach.push("Mango");
+console.log(stomach);
+
+if (poop) {
+  stomach.pop();
+  console.log(stomach);
+}
+
+/*
 
   TASK 2
 
